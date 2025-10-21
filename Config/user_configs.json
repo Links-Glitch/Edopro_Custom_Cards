@@ -1,0 +1,15 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/Links-Glitch/edopro-custom-cards",
+      "repo_name": "Links-Glitch Custom Cards",
+      "repo_path": "./expansions/Links-Glitch-Custom",
+      "should_update": true,
+      "should_read": true,
+      "lflist_path": "lflists",
+      "script_path": "script",
+      "data_path": ".",
+      "pics_path": "pics"
+    }
+  ]
+}
