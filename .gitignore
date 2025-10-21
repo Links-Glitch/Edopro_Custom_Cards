@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------
+# General Files to Ignore
+# -----------------------------------------------------------------
+# Ignore operating system specific files
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------------------------------
+# DataEditorX / SQLite / Database Artifacts
+# -----------------------------------------------------------------
+# Temporary files created by DataEditorX or SQLite when editing the database
+*.db-journal
+*.bak
+*.temp
+*.tmp
+
+# Any large database backups or user-specific files that shouldn't be shared
+db_backup/
+DataEditorX_Settings.xml
+
+# -----------------------------------------------------------------
+# EDOPro / YGOPro Specific Files
+# -----------------------------------------------------------------
+# Ignore any user-specific replay files
+replay/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore decks (though you may want to share these, but often best to ignore)
+# If you ARE sharing example decks, delete the line below.
+deck/
+
+# Ignore custom card images that are only for local testing (if you save them elsewhere)
+custom_images/
+
+# Ignore built executables if you were compiling anything
+*.exe
+*.dll
+*.so
